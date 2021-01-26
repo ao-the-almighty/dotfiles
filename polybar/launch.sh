@@ -16,6 +16,6 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 polybar primary -c ~/.config/polybar/config.ini &
 sleep 1 &&
-polybar music -c ~/.config/polybar/config.ini &
+polybar thirdiary -c ~/.config/polybar/config.ini &
 polybar secondary -c ~/.config/polybar/config.ini &
 polybar secondary-lvds -c ~/.config/polybar/config.ini &

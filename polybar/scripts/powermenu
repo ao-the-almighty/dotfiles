@@ -30,7 +30,7 @@ case $chosen in
         systemctl reboot
         ;;
     $lock)
-        /home/fhilipe/.config/polybar/scripts/lock.sh
+        ~/.config/polybar/scripts/lock.sh
         ;;
     $suspend)
         mpc -q pause

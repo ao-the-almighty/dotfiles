@@ -3,12 +3,13 @@
 sxhkd &
 
 #bspc monitor -d Música Trabalho Discord Firefox cinco seis sete oito nove dez
-#bspc monitor -d  いち に さん よん ご ろく しち はち きゅう ぬる
-bspc monitor -d  一  二  三  四  五  六  七  八  九 十
-feh --bg-fill ~/Pictures/unixporn/eyes.png
+bspc monitor -d  いち に さん よん ご ろく しち はち きゅう ぬる
+#bspc monitor -d  一  二  三  四  五  六  七  八  九 十
+
+feh --randomize --bg-scale --no-fehbg ~/.config/cool\ bg/
+#feh --bg-scale ~/Downloads/waves.jpeg
 
 ~/.config/polybar/launch.sh
-#polybar primary -c ~/Dotfiles/polybar/config.ini &
 uncluter &
 
 picom --config ~/.config/picom/picom.conf -b &
@@ -41,4 +42,4 @@ bspc rule -a mpv layer=below focus=off state=fullscreen
 bspc rule -a Firefox desktop=^4
 bspc rule -a krita desktop=^2
 bspc rule -a vlc desktop=^1
-bspc rule -a Discord desktop=^3
+bspc rule -a discord desktop=^3
