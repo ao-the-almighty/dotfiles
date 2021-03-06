@@ -10,8 +10,10 @@ super + End
 	firefox https://www.youtube.com/watch?v=bbrfatoDYfY
 alt + o
 	PureRef
-
-
+alt + t
+	typora
+super + alt + Return
+	xterm
 # terminal
 super + Return
 	kitty
@@ -54,7 +56,7 @@ alt + v
 
 # krita
 alt + k
-	krita
+	krita --nosplash
 
 # firefox
 alt + b
@@ -62,7 +64,7 @@ alt + b
 
 # sys monitor
 alt + m
-	kitty -e bashtop
+	kitty -e htop
 
 # vlc
 alt + v
